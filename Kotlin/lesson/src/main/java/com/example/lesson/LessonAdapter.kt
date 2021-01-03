@@ -41,7 +41,6 @@ class LessonAdapter : RecyclerView.Adapter<LessonViewHolder>() {
             var colorRes = R.color.playback
             colorRes = when (state) {
                 Lesson.State.PLAYBACK -> {
-
                     // 即使在 {} 中也是需要 break 的。
                     R.color.playback
                 }
